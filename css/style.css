@@ -4,6 +4,30 @@ height:40px;
 display:inline-block;
 margin:10px 0 10px 0;
 }
+#drag
+{
+color:#fff;
+font-family: sans-serif;
+margin:0 0 4px 0;
+text-align: center;
+font-weight: lighter;
+font-size: 12px;
+}
+#delete
+{
+height: 22px;
+display: inline-block;
+margin: 2px 0 0 0;
+float: left;
+width: 98%;	
+background:#2C49A2;
+color:#fff;
+border:none;
+}
+#delete:hover
+{
+background:#405CB3;
+}
 .display
 {
 display:none;
@@ -20,13 +44,27 @@ height:auto;
 padding: 0.5em;
 position:relative;
 margin:100px;
-background:#ccc;
-border-radius:5px;
+background: #12349C;
+border-radius:10px;
 display:inline-block;
 border:none;
+max-width: 164px;
 }
+#draggable:before
+{
+content:"";
+position: absolute;
+right: 100%;
+top: 26px;
+width: 0;
+height: 0;
+border-top: 13px solid transparent;
+border-right: 26px solid #12349C;
+border-bottom: 13px solid transparent;	
+} 
 #resizable {
 bottom: 17px;
 border-radius: 5px;
 border:none;
+float:left;
 }
