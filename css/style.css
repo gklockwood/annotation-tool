@@ -1,0 +1,32 @@
+.toggler
+{
+height:40px;
+width:150px;
+margin:10px 0 10px 0;
+}
+.display
+{
+display:none;
+width:800px;
+height:600px;
+overflow: hidden;
+border:1px solid #ccc;
+margin:auto;
+}
+#draggable 
+{ 
+width:auto; 
+height:auto; 
+padding: 0.5em;
+position:relative;
+margin:100px;
+background:#ccc;
+border-radius:5px;
+display:inline-block;
+border:none;
+}
+#resizable {
+bottom: 17px;
+border-radius: 5px;
+border:none;
+}
